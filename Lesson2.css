@@ -1,0 +1,79 @@
+*{
+	padding: 0px;
+	margin: 0px;
+ }
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+#headMessage{
+    height:100px;
+    width: 1100px;
+    margin: 0 auto;
+}
+#sectionMessage{
+    margin: 10px auto;
+    width: 1100px;
+
+}
+
+#footMessage{
+	width: 1100px;
+	height: 300px;
+	margin:10px auto;
+}
+.ft{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearbox::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.cr{
+	background-color: red;
+}
+.cb{
+   background-color: blue;
+}
+.co{
+	background-color: orange;
+}
+.cp{
+	background-color: pink;
+}
+
+.leftbox{
+	width: 700px;
+	height: 600px;
+}
+.rightbox{
+	width: 300px;
+	height: 600px;
+}
+#sectionMessage .leftbox div{
+	float: left;
+}
+sectionMessage .rightbox div{
+	float: left;
+}
+.lf1,.lf2,.lf3,.r1,.r2{
+	height: 300px;
+}
+.lf1,.r1,.r2{
+    width: 300px;   
+}
+.r1,.r2{
+	width: 300px;
+}
+.lf2{
+	width: 400px;	
+}
+.lf3{
+	width: 700px;
+}
